@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>全民互粉</title>
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/detail.css"/>
+
+    <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="introduction box">
+        <div class="row">
+            <div class="small-5 columns">
+                <div class="portrait portrait-group">
+                    <img src="img/user.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="small-7 columns">
+                <p class="group-name">我的滑板鞋<span class="hot">168</span></p>
+                <p>个人微信：zxf520wt</p>
+                <p>最近更新：2015-09-21</p>
+                <p><span class="special-letter">地</span>址：广州省 广州市</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="intro-list box">
+        <p class="subtitle">简介</p>
+
+        <div class="line"></div>
+        <p>摩擦，摩擦，在这光滑的地板上摩擦摩擦，摩擦，在这光滑的地板上摩擦摩擦，摩擦，在这光滑的地板上摩擦</p>
+    </div>
+    <div class="intro-list box">
+        <p class="subtitle">群二维码</p>
+
+        <div class="line"></div>
+        <div class="group-code">
+            <img src="img/qrcode.jpg" alt=""/>
+
+            <p>若长按无法识别，请点击放大图片后再识别</p>
+        </div>
+    </div>
+
+
+<div class="row">
+    <div class="small-12 columns publish">
+        <a class="button btn" href="person-upload.html">我也要发布</a>
+    </div>
+</div>
+
+</div>
+<div class="bottom-bar">
+    <ul class="row">
+        <li class="small-4 medium-4 columns"><a class="bottom-nav current" href="index.html"><i class="iconfont">
+            &#xe622;</i><span>首页</span></a></li>
+        <li class="small-4 medium-4 columns"><a class="bottom-nav" href="person-upload.html"><i class="iconfont">
+            &#xe63d;</i><span>秀出自己</span></a></li>
+        <li class="small-4 medium-4 columns"><a class="bottom-nav" href="group-upload.html"><i class="iconfont">
+            &#xe62e;</i><span>发布微信群</span></a></li>
+    </ul>
+</div>
+</div>
+<div class="dialog" id="qrcode">
+    <div class="back"><a onclick="hide()"><img src="img/back.png" alt=""/></a></div>
+    <div class="dialog-cnt">
+        <div class="dialog-bd">
+            <img src="img/qrcode.jpg" alt=""/>
+        </div>
+    </div>
+</div>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+
+<script>
+    function show() {
+        document.getElementById("qrcode").style.display = 'block';
+    }
+    function hide() {
+        document.getElementById("qrcode").style.display = 'none';
+    }
+</script>
+</body>
+</html>

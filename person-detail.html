@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>全民互粉</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/detail.css" />
+
+    <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+<div class="wrapper">
+   <div class="person-intro box">
+       <div class="row">
+           <div class="small-5 columns">
+               <div class="portrait">
+               <img src="img/user.jpg" alt=""/>
+           </div></div>
+           <div class="small-7 columns">
+               <p>用户名：我的滑板鞋</p>
+               <p>微信号：zxf520wt</p>
+
+               <p><span class="special-letter">地</span>址：广州省 广州市</p>
+
+               <p><span class="special-letter">人</span>气：168</p>
+           </div>
+       </div>
+   </div>
+    <div class="intro-list box">
+        <p class="subtitle">个人介绍</p>
+        <div class="line"></div>
+        <div class="row">
+            <div class="small-9 columns">
+                <p>摩擦，摩擦，在这光滑的地板上摩擦摩擦，摩擦，在这光滑的地板上摩擦摩擦，摩擦，在这光滑的地板上摩擦</p>
+            </div>
+            <div class="small-3 columns right-icon">
+                <a onclick=show()>
+                    <i class="iconfont qrcode">&#xf0039;</i>
+                <!--<img src="img/code.png" alt=""/>-->
+                <p>点击加好友</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <a href="group-detail.html">
+    <div class="intro-list box">
+        <p class="subtitle">我的微信群</p>
+        <div class="line"></div>
+        <div class="row">
+            <div class="small-3 medium-3 columns">
+                <div class="portrait portrait-group">
+                    <img src="img/user.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="small-8 medium-8 columns">
+                <p class="fan-name">全民互粉</p>
+                <p class="brief">互粉大法好，加上千粉丝，全民疯狂互粉中，赶快加入进来</p>
+            </div>
+            <div class="small-1 medium-1 columns right-icon">
+                <i class="iconfont go-to">&#xe627;</i>
+            </div>
+        </div>
+    </div>
+</a>
+
+    <a href="group.html">
+        <div class="intro-list box">
+            <p class="subtitle">我的微信群</p>
+            <div class="line"></div>
+            <div class="row">
+               <div class="small-12 group-none">
+                   <p>还没发布微信群</p>
+               </div>
+            </div>
+        </div>
+    </a>
+    <div class="row">
+        <div class="small-12 columns publish">
+            <a class="button btn" href="person-upload.html">我也要发布</a>
+        </div>
+    </div>
+    <div class="bottom-bar">
+        <ul class="row">
+            <li class="small-4 medium-4 columns"><a class="bottom-nav current" href="index.html"><i class="iconfont">&#xe622;</i><span>首页</span></a></li>
+            <li class="small-4 medium-4 columns"><a class="bottom-nav" href="person-upload.html"><i class="iconfont">&#xe63d;</i><span>秀出自己</span></a></li>
+            <li class="small-4 medium-4 columns"><a class="bottom-nav" href="group-upload.html"><i class="iconfont">&#xe62e;</i><span>发布微信群</span></a></li>
+        </ul>
+    </div>
+</div>
+<div class="dialog" id="qrcode">
+    <div class="back"><a onclick="hide()"><img src="img/back.png" alt=""/></a></div>
+    <div class="dialog-cnt">
+        <div class="dialog-bd">
+            <img src="img/qrcode.jpg" alt=""/>
+        </div>
+    </div>
+</div>
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+
+<script>
+    function show(){
+        document.getElementById("qrcode").style.display = 'block';
+    }
+    function hide(){
+        document.getElementById("qrcode").style.display = 'none';
+    }
+</script>
+</body>
+</html>

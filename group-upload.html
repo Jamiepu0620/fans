@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>全民互粉</title>
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/upload.css"/>
+
+    <script src="js/vendor/modernizr.js"></script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="upload">
+        <form>
+            <div class="cnt-box">
+                <div class="row">
+                    <div class="small-12 columns">
+                        <label>微信群名称
+                            <input type="text" placeholder="" />
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12 columns">
+                        <label>微信群二维码
+                            <div class="face" onclick="document.querySelector('#demo').click()">
+                                <div class="qrcode-img" id="preview">
+                                    <img id="imghead" src="img/initial.jpg" alt=""/>
+                                </div>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <input id="demo" type="file" onchange="previewImage(this)" style="display: none"/>
+            </div>
+
+
+            <div class="cnt-box second-type">
+
+
+                <div class="row">
+                    <div class="small-12 columns">
+                        <p>选择所属类别</p>
+                        <select name="classify" class="classify">
+                            <option value="0">选择类别</option>
+                            <option value="1">微商</option>
+                            <option value="2">白领</option>
+                            <option value="3">大学生</option>
+                            <option value="4">自由职业者</option>
+                            <option value="5">老板</option>
+                            <option value="6">其他</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="small-12 medium-8 columns">
+                        <label>微信群描述
+                            <textarea placeholder=""></textarea>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="small-12 columns publish">
+                    <a class="button btn">保存并发布</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="bottom-bar">
+        <ul class="row">
+            <li class="small-4 medium-4 columns"><a class="bottom-nav" href="index.html"><i class="iconfont">&#xe622;</i><span>首页</span></a></li>
+            <li class="small-4 medium-4 columns"><a class="bottom-nav" href="person-upload.html"><i class="iconfont">&#xe63d;</i><span>秀出自己</span></a></li>
+            <li class="small-4 medium-4 columns"><a class="bottom-nav current" href="group-upload.html"><i class="iconfont">&#xe62e;</i><span>发布微信群</span></a></li>
+        </ul>
+    </div>
+</div>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+    $(document).foundation();
+</script>
+</body>
+</html>

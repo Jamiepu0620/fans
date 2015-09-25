@@ -1,0 +1,130 @@
+
+.box {
+    padding: 16px 8px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.8em;
+}
+
+.introduction {
+    background: url("../img/bg.jpg");
+}
+
+.introduction p {
+    color: #ffffff;
+}
+
+.introduction .columns {
+    padding: 0
+}
+
+.intro-list .columns {
+    padding: 0;
+}
+
+.subtitle {
+    border-left: 2px solid #ff6000;
+    padding-left: 8px;
+}
+
+.intro-list .portrait-group {
+    margin: 0;
+    text-align: left;
+
+}
+
+.intro-list .small-9 p {
+    color: #929292;
+}
+
+.right-icon {
+    text-align: center;
+}
+
+.right-icon i {
+    color: #929292;
+}
+
+.right-icon p {
+    color: #ff6000;
+    font-size: 1em;
+    margin-top: -8px;
+}
+
+.right-icon a {
+    display: block;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: -12px;
+}
+
+.qrcode {
+    font-size: 40px;
+    padding-top: 0;
+    margin-top: -8px;
+}
+
+.go-to {
+    font-size: 16px;
+    position: absolute;
+    margin-top: 66%;
+}
+
+.group-none {
+    text-align: center;
+    padding: 8px;
+}
+
+.special-letter{
+    letter-spacing: 32px;
+}
+
+/*微信群详情页*/
+
+.group-name{
+    font-size: 1.1em;
+    margin-bottom: 0.4em;
+}
+
+.group-code {
+    padding: 24px;
+}
+
+.group-code p {
+    margin-top: 1em;
+}
+.hot{
+    background: #ff6000;
+    padding:0.1em 0.5em;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+.introduction .portrait-group{
+    margin-top: 8px;
+}
+
+
+
+@media (width: 320px) {
+    .right-icon p {
+        color: #ff6000;
+        font-size: 0.8em;
+        margin-top: -8px;
+    }
+
+    .go-to {
+
+        margin-top: 32%;
+    }
+
+    .special-letter{
+        letter-spacing: 24px;
+    }
+    .group-name{
+        font-size: 0.8em;
+        margin-bottom: 0.4em;
+    }
+}
